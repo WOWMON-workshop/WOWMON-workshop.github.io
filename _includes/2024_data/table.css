@@ -12,6 +12,18 @@ table {
     border: 1px solid black;
     border-collapse: collapse;
 
+/* unvisited link */
+a:link { color: black; }
+
+/* visited link */
+a:visited { color: black; }
+
+/* mouse over link */
+a:hover { color: red; }
+
+/* selected link */
+a:active { color: black; }
+
 	th,
 	td {
 		padding: 0.5rem 1rem;
@@ -43,9 +55,9 @@ table {
 	}
 }
 
-.stage-earth {background-color: #FFA726};
-.stage-mercury {background-color: #9CCC65};
-.stage-venus {background-color: #FF8A65};
-.stage-mars {background-color: #B3E5FC};
-.stage-jupiter {background-color: #81D4FA};
-.stage-saturn {background-color: #26C6DA};
+.stage-earth {background-color: #FFA726; }
+.stage-saturn {background-color: #26C6DA; }
+.stage-mercury {background-color: #9CCC65; }
+.stage-venus {background-color: #FF8A65; }
+.stage-mars {background-color: #B3E5FC; }
+.stage-jupiter {background-color: #81D4FA; }
